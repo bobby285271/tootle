@@ -5,7 +5,7 @@ using Gdk;
 public class Tootle.Widgets.Status : ListBoxRow {
 
 	public API.Status status { get; construct set; }
-	public API.NotificationType? kind { get; construct set; }
+	public API.NotificationType? kind { get; set; }
 
 	public enum ThreadRole {
 		NONE,
